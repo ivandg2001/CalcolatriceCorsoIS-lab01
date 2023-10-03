@@ -15,11 +15,23 @@ public class Calcolatrice {
         return a * b;
     }
 
+    public int sottrazione (int a, int b) {
+        return a - b;
+    }
+
+    public double divisione (int a, int b) {
+        if (b != 0)
+            return a / b;
+        else
+            return 0;
+    }
+
     public boolean compare(int a, int b){
         if(a==b){
             return true;
         }else{
             return false;
         }
+
     }
 }
