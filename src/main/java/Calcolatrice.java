@@ -14,4 +14,12 @@ public class Calcolatrice {
     public int moltiplicazione(int a , int b){
         return a * b;
     }
+
+    public boolean compare(int a, int b){
+        if(a==b){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
